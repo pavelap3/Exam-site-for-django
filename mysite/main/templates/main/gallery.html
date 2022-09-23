@@ -1,0 +1,44 @@
+<style>
+    img{
+        margin:10px;
+}
+</style>
+
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}
+    <title>Галерея</title>
+{% endblock %}
+
+{% block content %}
+    <h1>Галерея</h1>
+
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-6">
+            <img class="img-fluid" src="{% static 'main/img/320x220.png' %}" alt="...">
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <img class="img-fluid" src="{% static 'main/img/320x220.png' %}" alt="...">
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <img class="img-fluid" src="{% static 'main/img/320x220.png' %}" alt="...">
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <img class="img-fluid" src="{% static 'main/img/320x220.png' %}" alt="...">
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <img class="img-fluid" src="{% static 'main/img/320x220.png' %}" alt="...">
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <img class="img-fluid" src="{% static 'main/img/320x220.png' %}" alt="...">
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <img class="img-fluid" src="{% static 'main/img/320x220.png' %}" alt="...">
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+            <img class="img-fluid" src="{% static 'main/img/320x220.png' %}" alt="...">
+        </div>
+    </div>>
+
+{% endblock %}

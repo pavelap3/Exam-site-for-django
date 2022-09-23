@@ -1,0 +1,23 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}
+    <title>Отзывы на сайте</title>
+{% endblock %}
+
+{% block content %}
+    <h1>Страница отзывы</h1>
+    <a href="{% url 'create' %}"><li><button class="btn btn-info"><i class="fas fa-plus-circle"></i> Добавить запись </button></li></a>
+    {% if reviews %}
+        {% for el in reviews %}
+            <div class="alert alert-secondary" role="alert">
+                <h3>{{ el.name }}</h3>
+                <p>{{ el.anons }}</p>
+                <p>{{ el.full_text }}</p>
+                <p>{{ el.date }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>У вас нет записей!</p>
+    {% endif %}
+{% endblock %}

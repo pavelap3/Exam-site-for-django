@@ -1,0 +1,27 @@
+<script>
+    .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+</script>
+{% extends 'main/base.html' %}
+
+{% block title %}
+    <title>О нас</title>
+{% endblock %}
+
+{% block content %}
+    <h1>Страница о нас</h1>
+    <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.535288371786!2d27.54842965114571!3d53.904463280002105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfeb98117193%3A0x8eb6297c504fc218!2zQmFyYmVyc2hvcCAi0KLQkNCZ0JPQkCIgdm9sLjIuMC4!5e0!3m2!1sru!2sby!4v1662654065603!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>>
+{% endblock %}

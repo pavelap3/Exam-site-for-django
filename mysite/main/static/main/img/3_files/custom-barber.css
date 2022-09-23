@@ -1,0 +1,63 @@
+#header{
+margin: 0 auto;
+}
+header.smaller.header_light {
+    background: rgba(0,0,0,.8);
+    border-bottom: solid 1px #000;
+}
+header.smaller.header_light #mainmenu li li a{
+    border-bottom: 1px solid #404040;
+}
+#mainmenu{font-size:13px;}
+h1, h2, h3, h4, h5, h1.big-font, .type-wrap.big-font, #mainmenu, .de_count h3, .coming-soon-text h1 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    letter-spacing: 0;
+    text-transform: none;
+}
+.blog-list h3{
+    font-weight:bold;
+    font-size:24px;
+}
+h1.big-font, .type-wrap.big-font {
+    font-size: 64px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.teaser-text {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.service-item img {
+    width: 100%;
+}
+a.btn-bg-color{
+  display: inline-block;
+  font-size: 26px !important;
+  font-weight: 400 !important;
+  color: #fff;
+  letter-spacing: 2px !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px 20px 8px 20px;
+  font-family: "oswald" !important;
+  border-radius: 0;
+  border: 4px solid;
+  background: #141414;
+}
+a.btn-bg-color:hover{
+    background: #fff;
+}
+.sub-item-service .c1{
+    font-weight:bold;
+}
+.testimonial-list li {
+    font-style: normal;
+    font-family: Open Sans;
+}
+.testimonial-list.big-font li {
+    font-size: 30px;
+    color: #757575;
+    font-weight:400;
+}
